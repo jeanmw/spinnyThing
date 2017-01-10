@@ -1,0 +1,86 @@
+html{
+  background: black;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container{
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+
+.square{
+  height: 94%;
+  width: 94%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
+}
+
+.black{
+  background: black;
+  animation: rotate 10s infinite linear;
+}
+
+.color1{
+  background: #621D77;
+  animation: rotate 10s infinite linear;
+}
+
+.color2{
+  background: #A544C4;
+  animation: rotate 10s infinite linear;
+}
+
+.color3{
+  background: #CEAB5C;
+  animation: rotate 10s infinite linear;
+}
+
+.color4{
+  background: #239165;
+  animation: rotate 10s infinite linear;
+}
+
+.color5{
+  background: #237756;
+  animation: rotate 10s infinite linear;
+}
+
+.color01{
+  background: #6B5477;
+  animation: rotate 10s infinite linear;
+}
+
+.color02{
+  background: #B79DC4;
+  animation: rotate 10s infinite linear;
+}
+
+.color03{
+  background: #CEC7B9;
+  animation: rotate 10s infinite linear;
+}
+
+.color04{
+  background: #65917B;
+  animation: rotate 10s infinite linear;
+}
+
+.color05{
+  background: #5A7768;
+  animation: rotate 10s infinite linear;
+}
+
+
+@keyframes rotate{
+  0%{ transform: rotate(10deg); }
+	100%{ transform: rotate(100deg); }
+}
